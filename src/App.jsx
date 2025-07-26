@@ -4,6 +4,9 @@ import Content from './components/Content'
 import Footer from './components/Footer'
 
 import './app.css'
+import ToggleText from './components/ToggleText'
+import Counter from './components/Counter'
+import LikeButton from './LikeButton'
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Header></Header>
       <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
       </Content>
+      <ToggleText/>
+      <Counter/>
+      <LikeButton/>
       <Footer></Footer>
       <h1>Hello, Murali 👋</h1>
       <p>This is your first React app!</p>
