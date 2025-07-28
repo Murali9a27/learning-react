@@ -9,6 +9,8 @@ import Counter from './components/Counter'
 import LikeButton from './LikeButton'
 import Challange1 from './components/Challange1'
 import UserList from './components/UserList'
+import EffectExample from './components/EffectExample'
+import ClockTick from './components/ClockTick'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       {/* <Counter/> */}
       {/* <LikeButton/> */}
 
+      {/* <EffectExample/> */}
+      <ClockTick/>
       <Challange1/>
       <Footer></Footer>
       <h1>Hello, Murali 👋</h1>
