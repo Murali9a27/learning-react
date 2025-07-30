@@ -16,15 +16,15 @@ function App() {
   return (
     <div>
       <Header></Header>
-      {/* <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
-      </Content> */}
+      <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
+      </Content>
       {/* <ToggleText/> */}
       {/* <Counter/> */}
       {/* <LikeButton/> */}
 
       {/* <EffectExample/> */}
-      <ClockTick/>
-      <Challange1/>
+      {/* <ClockTick/> */}
+      {/* <Challange1/> */}
       <Footer></Footer>
       <h1>Hello, Murali 👋</h1>
       <p>This is your first React app!</p>
