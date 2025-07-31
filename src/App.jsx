@@ -11,13 +11,15 @@ import Challange1 from './components/Challange1'
 import UserList from './components/UserList'
 import EffectExample from './components/EffectExample'
 import ClockTick from './components/ClockTick'
+import UserefEx1 from './components/userefEx1'
+import UserefEx2 from './components/UserefEx2'
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
-      </Content>
+      {/* <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
+      </Content> */}
       {/* <ToggleText/> */}
       {/* <Counter/> */}
       {/* <LikeButton/> */}
@@ -25,6 +27,8 @@ function App() {
       {/* <EffectExample/> */}
       {/* <ClockTick/> */}
       {/* <Challange1/> */}
+      <UserefEx1/>
+      <UserefEx2/>
       <Footer></Footer>
       <h1>Hello, Murali 👋</h1>
       <p>This is your first React app!</p>
