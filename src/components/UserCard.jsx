@@ -8,50 +8,50 @@ import CertificateIcon from "../assets/images/svg/Certificate.svg"
 function UserCard(props) {
   return (
     <>
-        <div class="mentor-card">
-            <div class="mentor-details">
-                <img class="mentor-img" src={MentorIcon} alt={props.name}/>
-                <h3 class="mentor-name">{props.name}</h3>
-                <div class="mentor-rating">
-                <div class="rating">
-                    <span class="rating-data">{props.rating}</span>
-                    <img src={RatingIcon} alt="Rating Star" class="star-icon"/>
+        <div className="mentor-card">
+            <div className="mentor-details">
+                <img className="mentor-img" src={MentorIcon} alt={props.name}/>
+                <h3 className="mentor-name">{props.name}</h3>
+                <div className="mentor-rating">
+                <div className="rating">
+                    <span className="rating-data">{props.rating}</span>
+                    <img src={RatingIcon} alt="Rating Star" className="star-icon"/>
                 </div>
-                <div class="vertical-line"></div>
-                <div class="review">
-                    <p>Review (<span class="review-data">{props.reviewData}</span>)</p>
+                <div className="vertical-line"></div>
+                <div className="review">
+                    <p>Review (<span className="review-data">{props.reviewData}</span>)</p>
                     
                 </div>
                 </div>
-                <div class="mentor-menu">⋯</div>
+                <div className="mentor-menu">⋯</div>
             </div>
             
-            <div class="mentor-tags">
-                <span class="tag">{props.tag[0]}</span>
-                <span class="tag">{props.tag[1]}</span>
-                <span class="tag">{props.tag[2]}</span>
+            <div className="mentor-tags">
+                <span className="tag">{props.tag[0]}</span>
+                <span className="tag">{props.tag[1]}</span>
+                <span className="tag">{props.tag[2]}</span>
             </div>
             
-            <div class="mentor-stats">
-                <div class="stat-box">
-                <div class="stat-text">
+            <div className="mentor-stats">
+                <div className="stat-box">
+                <div className="stat-text">
                     <img src={AchievementIcon} alt="Achievement"/>
-                    <p class="stat-label">Achievement</p>
+                    <p className="stat-label">Achievement</p>
                 </div>
                 
-                <p class="stat-number">{props.achievementStat}</p>
+                <p className="stat-number">{props.achievementStat}</p>
                 </div>
-                <div class="stat-box">
-                <div class="stat-text">
+                <div className="stat-box">
+                <div className="stat-text">
                     <img src={CertificateIcon} alt="Certificate"/>
-                    <p class="stat-label">Certificate</p>
+                    <p className="stat-label">Certificate</p>
                 </div>
                 
-                <p class="stat-number">{props.certificateStat}</p>
+                <p className="stat-number">{props.certificateStat}</p>
                 </div>
             </div>
             
-            <button class="view-class-btn">View Class</button>
+            <button className="view-class-btn">View Class</button>
         </div>
     </>
   )

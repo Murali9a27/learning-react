@@ -13,11 +13,14 @@ import EffectExample from './components/EffectExample'
 import ClockTick from './components/ClockTick'
 import UserefEx1 from './components/userefEx1'
 import UserefEx2 from './components/UserefEx2'
+import UserefEx3 from './components/UserefEX3'
+import SimpleForm from './components/SimpleForm'
+import SearchableUserList from './components/SearchableUserList'
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      {/* <Header></Header> */}
       {/* <Content style={{color:'#666', backgroundColor:'#edefef'}}>        
       </Content> */}
       {/* <ToggleText/> */}
@@ -27,12 +30,16 @@ function App() {
       {/* <EffectExample/> */}
       {/* <ClockTick/> */}
       {/* <Challange1/> */}
-      <UserefEx1/>
+      {/* <UserefEx1/>
       <UserefEx2/>
-      <Footer></Footer>
+      <UserefEx3/> */}
+      {/* <Footer></Footer>
       <h1>Hello, Murali 👋</h1>
       <p>This is your first React app!</p>
-      <UserList/>
+      <UserList/> */}
+
+      <SimpleForm/>
+      <SearchableUserList/>
     </div>
   )
 }
